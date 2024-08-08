@@ -22,25 +22,25 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var employee in Model.EmployeeList)
+            @foreach (var employee in Model.employeeList)
             {
                 <tr>
-                    <td>@employee.FirstName</td>
-                    <td>@employee.LastName</td>
-                    <td>@employee.Position</td>
-                    <td>@employee.Department</td>
+                    <td>@employee["FirstName"]</td>
+                    <td>@employee["LastName"]</td>
+                    <td>@employee["Position"]</td>
+                    <td>@employee["Department"]</td>
                     <td>
-                        <a href="/Actions/ViewEmployee?id=@employee.Id" style="color: #03C988">
+                        <a href="/Actions/ViewEmployee?id=@employee["Id"]" style="color: #03C988">
                             <span class="material-symbols-outlined">
                                 visibility
                             </span>
                         </a>
-                        <a href="/Actions/UpdateEmployee?id=@employee.Id">
+                        <a href="/Actions/UpdateEmployee?id=@employee["Id"]">
                             <span class="material-symbols-outlined" style="color: #C69749">
                                 edit
                             </span>
                         </a>
-                        <a href="/Actions/DeleteEmployee?id=@employee.Id">
+                        <a href="/Actions/DeleteEmployee?id=@employee["Id"]">
                             <span class="material-symbols-outlined text-danger">
                                 delete
                             </span>

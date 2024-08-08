@@ -22,46 +22,7 @@ namespace EmployeeApp.Pages.Actions
 
             try
             {
-                Info.CreatedAt = DateTime.Now;
-
-                string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=Employee;Integrated Security=True;Encrypt=False";
-
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
-                    connection.Open();
-
-                    string insertEmployeeQuery = @"
-                INSERT INTO Employee (firstname, lastname, email, created_at)
-                OUTPUT INSERTED.id
-                VALUES (@FirstName, @LastName, @Email, @CreatedAt);
-                ";
-
-                    using (SqlCommand cmd = new SqlCommand(insertEmployeeQuery, connection))
-                    {
-                        cmd.Parameters.AddWithValue("@FirstName", Info.FirstName);
-                        cmd.Parameters.AddWithValue("@LastName", Info.LastName);
-                        cmd.Parameters.AddWithValue("@Email", Info.Email);
-                        cmd.Parameters.AddWithValue("@CreatedAt", Info.CreatedAt);
-
-                        int insertedId = (int)cmd.ExecuteScalar();
-                        string insertDetailsQuery = @"
-                    INSERT INTO Employee_Details (id, birthday, phone, address, position, department)
-                    VALUES (@Id, @Birthday, @Phone, @Address, @Position, @Department);
-                    ";
-
-                        using (SqlCommand cmdDetails = new SqlCommand(insertDetailsQuery, connection))
-                        {
-                            cmdDetails.Parameters.AddWithValue("@Id", insertedId);
-                            cmdDetails.Parameters.AddWithValue("@Birthday", Info.Birthday);
-                            cmdDetails.Parameters.AddWithValue("@Phone", Info.Phone);
-                            cmdDetails.Parameters.AddWithValue("@Address", Info.Address);
-                            cmdDetails.Parameters.AddWithValue("@Position", Info.Position);
-                            cmdDetails.Parameters.AddWithValue("@Department", Info.Department);
-
-                            cmdDetails.ExecuteNonQuery();
-                        }
-                    }
-                }
+                Info.SaveEmployee();
             }
             catch (Exception ex)
             {

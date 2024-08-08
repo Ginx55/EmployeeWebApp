@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeApp
 build_property.RootNamespace = EmployeeApp
-build_property.ProjectDir = C:\Users\Master\Downloads\EmployeeWebApp-main\EmployeeApp\
+build_property.ProjectDir = C:\Users\Master\Desktop\EmployeeWebApp\EmployeeApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Master\Downloads\EmployeeWebApp-main\EmployeeApp
+build_property.MSBuildProjectDirectory = C:\Users\Master\Desktop\EmployeeWebApp\EmployeeApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Actions/AddEmployee.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Actions/AddEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aW9uc1xBZGRFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Actions/DeleteEmployee.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Actions/DeleteEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aW9uc1xEZWxldGVFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Actions/UpdateEmployee.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Actions/UpdateEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aW9uc1xVcGRhdGVFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Actions/ViewEmployee.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Actions/ViewEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aW9uc1xWaWV3RW1wbG95ZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Error.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Index.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/_ViewImports.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/_ViewStart.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Master/Downloads/EmployeeWebApp-main/EmployeeApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/Master/Desktop/EmployeeWebApp/EmployeeApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-22rjqznjnk

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Master\\Downloads\\EmployeeWebApp-main\\EmployeeApp\\EmployeeApp.csproj": {}
+    "C:\\Users\\Master\\Desktop\\EmployeeWebApp\\EmployeeApp\\EmployeeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Master\\Downloads\\EmployeeWebApp-main\\EmployeeApp\\EmployeeApp.csproj": {
+    "C:\\Users\\Master\\Desktop\\EmployeeWebApp\\EmployeeApp\\EmployeeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Master\\Downloads\\EmployeeWebApp-main\\EmployeeApp\\EmployeeApp.csproj",
+        "projectUniqueName": "C:\\Users\\Master\\Desktop\\EmployeeWebApp\\EmployeeApp\\EmployeeApp.csproj",
         "projectName": "EmployeeApp",
-        "projectPath": "C:\\Users\\Master\\Downloads\\EmployeeWebApp-main\\EmployeeApp\\EmployeeApp.csproj",
+        "projectPath": "C:\\Users\\Master\\Desktop\\EmployeeWebApp\\EmployeeApp\\EmployeeApp.csproj",
         "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Master\\Downloads\\EmployeeWebApp-main\\EmployeeApp\\obj\\",
+        "outputPath": "C:\\Users\\Master\\Desktop\\EmployeeWebApp\\EmployeeApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
